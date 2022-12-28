@@ -159,6 +159,9 @@ background-color: var(--clr-primary-500);
   border-radius: 0.5rem;
   
 }
+.desktop {
+  display: none;
+}
 
 @media (min-width: 600px)
 {
@@ -168,7 +171,13 @@ background-color: var(--clr-primary-500);
     max-width: 600px;
   }
 
+  .mobile {
+    display: none;
+  }
 
+  .desktop {
+    display: flex;
+  }
 }
 .content {
   display: grid;
