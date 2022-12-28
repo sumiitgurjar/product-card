@@ -159,6 +159,9 @@ background-color: var(--clr-primary-500);
   border-radius: 0.5rem;
   
 }
+.images {
+  width: 100%;
+}
 .desktop {
   display: none;
 }
