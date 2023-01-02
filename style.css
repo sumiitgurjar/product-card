@@ -108,9 +108,6 @@ body {
   font-size: 0.875rem;
   background-color: var(--clr-secondary-200);
 
-  display: grid;
-  place-content: center;
-  margin: 1rem;
 }
 
 .both-price {
